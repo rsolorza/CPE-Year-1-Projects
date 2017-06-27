@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "F:/Project 1/Project 1.srcs/sources_1/new/Decoder.vhd"
+vhdl xil_defaultlib  "F:/Vivado Project/Project 1/Project 1.srcs/sources_1/new/JK_Flip_Flop_clear.vhd"
+vhdl xil_defaultlib  "../../../Driverless_train.srcs/sources_1/new/Driverless_train_2017.vhd"
+
+# Do not sort compile order
+nosort

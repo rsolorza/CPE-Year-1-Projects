@@ -1,0 +1,18 @@
+Vivado Simulator 2017.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.1/bin/unwrapped/win64.o/xelab.exe -wto ac7437cffea245608806282d5816b28c --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Octave_State_behav xil_defaultlib.Octave_State -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.JK_Flip_Flop_clear [jk_flip_flop_clear_default]
+Compiling architecture not2_str of entity xil_defaultlib.not2 [not2_default]
+Compiling architecture and2_str of entity xil_defaultlib.and2 [and2_default]
+Compiling architecture or2_str of entity xil_defaultlib.or2 [or2_default]
+Compiling architecture behavioral of entity xil_defaultlib.octave_state
+Built simulation snapshot Octave_State_behav

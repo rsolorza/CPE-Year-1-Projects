@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Wed May 17 13:19:22 2017
+# Process ID: 8176
+# Current directory: C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.runs/impl_1
+# Command line: vivado.exe -log Temp_Conversion_Project.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Temp_Conversion_Project.tcl -notrace
+# Log file: C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.runs/impl_1/Temp_Conversion_Project.vdi
+# Journal file: C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Temp_Conversion_Project.tcl -notrace

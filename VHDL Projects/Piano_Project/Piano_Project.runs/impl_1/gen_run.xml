@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1497655233">
+  <File Type="PWROPT-DRC" Name="Piano_Final_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Piano_Final_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Piano_Final_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Piano_Final_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="Piano_Final.tcl"/>
+  <File Type="OPT-HWDEF" Name="Piano_Final.hwdef"/>
+  <File Type="RDI-RDI" Name="Piano_Final.vdi"/>
+  <File Type="OPT-DCP" Name="Piano_Final_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Piano_Final_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="Piano_Final_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Piano_Final_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="Piano_Final_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Piano_Final_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Piano_Final_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Piano_Final_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Piano_Final_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Piano_Final_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Piano_Final_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Piano_Final_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Piano_Final_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Piano_Final_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Piano_Final_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Piano_Final_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Piano_Final_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Piano_Final_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="Piano_Final_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Piano_Final_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Piano_Final_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Piano_Final_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Piano_Final_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Piano_Final_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="Piano_Final.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="Piano_Final_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="Piano_Final.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Piano_Final_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="Piano_Final.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Piano_Final_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="Piano_Final.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Piano_Final_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Piano_Final_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Piano_Final_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="Piano_Final_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Piano_Final_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Piano_Final_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Piano_Final_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Piano_Final_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Piano_Final_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Piano_Final_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Piano_Final_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Piano_Final_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Piano_Final_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Piano_Final_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Piano_Final_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="Piano_Final.bit"/>
+  <File Type="BITSTR-RBT" Name="Piano_Final.rbt"/>
+  <File Type="BITSTR-NKY" Name="Piano_Final.nky"/>
+  <File Type="BITSTR-BMM" Name="Piano_Final_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Piano_Final.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="Piano_Final.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Clock_Slowdown.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/JK_Flip_Flop_clear.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Octave_State.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Piano_Final.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Piano.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/piano2.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Piano_Final"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Ex5.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

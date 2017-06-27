@@ -1,0 +1,21 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity or2
+INFO: [VRFC 10-307] analyzing entity and2
+INFO: [VRFC 10-307] analyzing entity not2
+INFO: [VRFC 10-307] analyzing entity MOX2x1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX4x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MOX4x1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_Full_Adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity My_Full_Adder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_Ripple_Carry_Adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity My_Ripple_Carry_Adder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_flip_flop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity My_flip_flop
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Six_Bit_Register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Six_Bit_Register
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Temperature_Multiplier
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temp_Conversion_Project.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Temp_Conversion_Project

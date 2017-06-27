@@ -1,0 +1,25 @@
+Vivado Simulator 2017.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.1/bin/unwrapped/win64.o/xelab.exe -wto 49f58597a787468e9f1ac45d5e3ff48a --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Temp_Conversion_Project_behav xil_defaultlib.Temp_Conversion_Project -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.My_flip_flop [my_flip_flop_default]
+Compiling architecture behavioral of entity xil_defaultlib.Six_Bit_Register [six_bit_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.My_Full_Adder [my_full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.My_Ripple_Carry_Adder [my_ripple_carry_adder_default]
+Compiling architecture not2_str of entity xil_defaultlib.not2 [not2_default]
+Compiling architecture and2_str of entity xil_defaultlib.and2 [and2_default]
+Compiling architecture or2_str of entity xil_defaultlib.or2 [or2_default]
+Compiling architecture behavioral of entity xil_defaultlib.Temperature_Multiplier [temperature_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.MOX2x1 [mox2x1_default]
+Compiling architecture behavioral of entity xil_defaultlib.MOX4x1 [mox4x1_default]
+Compiling architecture behavioral of entity xil_defaultlib.temp_conversion_project
+Built simulation snapshot Temp_Conversion_Project_behav

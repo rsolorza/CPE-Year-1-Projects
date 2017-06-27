@@ -1,0 +1,7 @@
+Running: xsim.dir/Driverless_train_2017_behav/xsimk.exe -simmode gui -wdb Driverless_train_2017_behav.wdb -simrunnum 0 -socket 61532
+Design successfully loaded
+Design Loading Memory Usage: 5880 KB (Peak: 5880 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 6520 KB (Peak: 6520 KB)
+Simulation CPU Usage: 93 ms

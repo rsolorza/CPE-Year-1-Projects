@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Jun  9 08:35:47 2017
+# Process ID: 6448
+# Current directory: C:/Users/rhino/Desktop/Piano_Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2232 C:\Users\rhino\Desktop\Piano_Project\Piano_Project.xpr
+# Log file: C:/Users/rhino/Desktop/Piano_Project/vivado.log
+# Journal file: C:/Users/rhino/Desktop/Piano_Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/rhino/Desktop/Piano_Project/Piano_Project.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1

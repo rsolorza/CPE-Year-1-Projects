@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rhino/Desktop/Piano_Project/Piano_Project.srcs/sources_1/new/JK_Flip_Flop_clear.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity JK_Flip_Flop_clear
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/rhino/Desktop/Final_Exam/Final_Exam.srcs/sources_1/new/Driverless_Final.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Driverless_Final

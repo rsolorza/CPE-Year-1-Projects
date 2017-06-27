@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Wed Jun  7 10:22:08 2017
+# Process ID: 6460
+# Current directory: F:/Piano_Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11508 F:\Piano_Project\Piano_Project.xpr
+# Log file: F:/Piano_Project/vivado.log
+# Journal file: F:/Piano_Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Piano_Project/Piano_Project.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.1/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 781.902 ; gain = 32.887
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Wed Jun  7 10:28:46 2017] Launched synth_1...
+Run output will be captured here: F:/Piano_Project/Piano_Project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Wed Jun  7 10:31:03 2017] Launched impl_1...
+Run output will be captured here: F:/Piano_Project/Piano_Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Wed Jun  7 10:35:43 2017] Launched impl_1...
+Run output will be captured here: F:/Piano_Project/Piano_Project.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun  7 10:38:19 2017...

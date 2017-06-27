@@ -1,0 +1,7 @@
+Running: xsim.dir/Driverless_Final_behav/xsimk.exe -simmode gui -wdb Driverless_Final_behav.wdb -simrunnum 0 -socket 55595
+Design successfully loaded
+Design Loading Memory Usage: 5892 KB (Peak: 5892 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 6596 KB (Peak: 6596 KB)
+Simulation CPU Usage: 62 ms

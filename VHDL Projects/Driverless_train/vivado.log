@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Jun 16 15:27:51 2017
+# Process ID: 5892
+# Current directory: C:/Users/rhino/Desktop/Driverless_train
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15952 C:\Users\rhino\Desktop\Driverless_train\Driverless_train.xpr
+# Log file: C:/Users/rhino/Desktop/Driverless_train/vivado.log
+# Journal file: C:/Users/rhino/Desktop/Driverless_train\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/rhino/Desktop/Driverless_train/Driverless_train.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.1/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 785.059 ; gain = 48.797
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 16 16:17:35 2017...

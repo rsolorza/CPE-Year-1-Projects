@@ -1,0 +1,349 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Wed May 17 13:34:56 2017
+# Process ID: 12400
+# Current directory: C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.runs/synth_1
+# Command line: vivado.exe -log Temp_Conversion_Project.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Temp_Conversion_Project.tcl
+# Log file: C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.runs/synth_1/Temp_Conversion_Project.vds
+# Journal file: C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Temp_Conversion_Project.tcl -notrace
+Command: synth_design -top Temp_Conversion_Project -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t-cpg236'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t-cpg236'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5916 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 307.070 ; gain = 80.961
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Temp_Conversion_Project' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temp_Conversion_Project.vhd:12]
+INFO: [Synth 8-3491] module 'Six_Bit_Register' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Six_Bit_Register.vhd:4' bound to instance 'REG' of component 'Six_Bit_Register' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temp_Conversion_Project.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'Six_Bit_Register' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Six_Bit_Register.vhd:11]
+INFO: [Synth 8-3491] module 'My_flip_flop' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_flip_flop.vhd:4' bound to instance 'D1' of component 'My_flip_flop' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Six_Bit_Register.vhd:20]
+INFO: [Synth 8-638] synthesizing module 'My_flip_flop' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_flip_flop.vhd:11]
+WARNING: [Synth 8-614] signal 'R' is read in the process but is not in the sensitivity list [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_flip_flop.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'My_flip_flop' (1#1) [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_flip_flop.vhd:11]
+INFO: [Synth 8-3491] module 'My_flip_flop' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_flip_flop.vhd:4' bound to instance 'D2' of component 'My_flip_flop' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Six_Bit_Register.vhd:21]
+INFO: [Synth 8-3491] module 'My_flip_flop' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_flip_flop.vhd:4' bound to instance 'D3' of component 'My_flip_flop' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Six_Bit_Register.vhd:22]
+INFO: [Synth 8-3491] module 'My_flip_flop' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_flip_flop.vhd:4' bound to instance 'D4' of component 'My_flip_flop' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Six_Bit_Register.vhd:23]
+INFO: [Synth 8-3491] module 'My_flip_flop' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_flip_flop.vhd:4' bound to instance 'D5' of component 'My_flip_flop' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Six_Bit_Register.vhd:24]
+INFO: [Synth 8-3491] module 'My_flip_flop' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_flip_flop.vhd:4' bound to instance 'D6' of component 'My_flip_flop' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Six_Bit_Register.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'Six_Bit_Register' (2#1) [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Six_Bit_Register.vhd:11]
+INFO: [Synth 8-3491] module 'My_Ripple_Carry_Adder' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_Ripple_Carry_Adder.vhd:5' bound to instance 'RCA' of component 'My_Ripple_Carry_Adder' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temp_Conversion_Project.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'My_Ripple_Carry_Adder' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_Ripple_Carry_Adder.vhd:13]
+INFO: [Synth 8-3491] module 'My_Full_Adder' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_Full_Adder.vhd:4' bound to instance 'FA0' of component 'My_Full_Adder' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_Ripple_Carry_Adder.vhd:22]
+INFO: [Synth 8-638] synthesizing module 'My_Full_Adder' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_Full_Adder.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'My_Full_Adder' (3#1) [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_Full_Adder.vhd:9]
+INFO: [Synth 8-3491] module 'My_Full_Adder' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_Full_Adder.vhd:4' bound to instance 'FA1' of component 'My_Full_Adder' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_Ripple_Carry_Adder.vhd:23]
+INFO: [Synth 8-3491] module 'My_Full_Adder' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_Full_Adder.vhd:4' bound to instance 'FA2' of component 'My_Full_Adder' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_Ripple_Carry_Adder.vhd:24]
+INFO: [Synth 8-3491] module 'My_Full_Adder' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_Full_Adder.vhd:4' bound to instance 'FA3' of component 'My_Full_Adder' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_Ripple_Carry_Adder.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'My_Ripple_Carry_Adder' (4#1) [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/My_Ripple_Carry_Adder.vhd:13]
+INFO: [Synth 8-3491] module 'Temperature_Multiplier' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:4' bound to instance 'MLT' of component 'Temperature_Multiplier' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temp_Conversion_Project.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'Temperature_Multiplier' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:9]
+INFO: [Synth 8-3491] module 'not2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:31' bound to instance 'n0' of component 'not2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'not2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'not2' (5#1) [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:36]
+INFO: [Synth 8-3491] module 'not2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:31' bound to instance 'n1' of component 'not2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:26]
+INFO: [Synth 8-3491] module 'not2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:31' bound to instance 'n2' of component 'not2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:27]
+INFO: [Synth 8-3491] module 'not2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:31' bound to instance 'n3' of component 'not2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:28]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a0' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_and2' (6#1) [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:22]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a1' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:32]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a2' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:33]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a3' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:35]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a4' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:36]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a5' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:38]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a6' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:39]
+INFO: [Synth 8-3491] module 'or2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:4' bound to instance 'o1' of component 'or2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_or2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_or2' (7#1) [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:9]
+INFO: [Synth 8-3491] module 'or2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:4' bound to instance 'o2' of component 'or2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:42]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a12' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:45]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a14' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:47]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a15' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:49]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a16' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:50]
+INFO: [Synth 8-3491] module 'or2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:4' bound to instance 'o3' of component 'or2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:52]
+INFO: [Synth 8-3491] module 'or2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:4' bound to instance 'o4' of component 'or2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:53]
+INFO: [Synth 8-3491] module 'or2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:4' bound to instance 'o5' of component 'or2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:54]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a17' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:56]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a19' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:57]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a21' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:59]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a23' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:61]
+INFO: [Synth 8-3491] module 'or2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:4' bound to instance 'o6' of component 'or2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:63]
+INFO: [Synth 8-3491] module 'or2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:4' bound to instance 'o7' of component 'or2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:64]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a27' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:66]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a28' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:67]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a30' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:69]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'a31' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:70]
+INFO: [Synth 8-3491] module 'or2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:4' bound to instance 'o8' of component 'or2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'Temperature_Multiplier' (8#1) [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temperature_Multiplier.vhd:9]
+INFO: [Synth 8-3491] module 'Decoder' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Decoder.vhd:4' bound to instance 'DEC' of component 'Decoder' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temp_Conversion_Project.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'Decoder' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Decoder.vhd:13]
+INFO: [Synth 8-3491] module 'not2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:31' bound to instance 'NT1' of component 'not2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Decoder.vhd:26]
+INFO: [Synth 8-3491] module 'not2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:31' bound to instance 'NT2' of component 'not2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Decoder.vhd:27]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'A1' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Decoder.vhd:28]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'A2' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Decoder.vhd:29]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'A3' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Decoder.vhd:30]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'A4' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Decoder.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'Decoder' (9#1) [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Decoder.vhd:13]
+INFO: [Synth 8-3491] module 'MOX4x1' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX4x1.vhd:4' bound to instance 'MX0' of component 'MOX4x1' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temp_Conversion_Project.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'MOX4x1' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX4x1.vhd:12]
+INFO: [Synth 8-3491] module 'MOX2x1' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:45' bound to instance 'MX1' of component 'MOX2x1' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX4x1.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'MOX2x1' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:52]
+INFO: [Synth 8-3491] module 'not2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:31' bound to instance 'NT1' of component 'not2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:69]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'A1' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:70]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:17' bound to instance 'A2' of component 'and2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:71]
+INFO: [Synth 8-3491] module 'or2' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:4' bound to instance 'O1' of component 'or2' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'MOX2x1' (10#1) [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:52]
+INFO: [Synth 8-3491] module 'MOX2x1' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:45' bound to instance 'MX2' of component 'MOX2x1' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX4x1.vhd:25]
+INFO: [Synth 8-3491] module 'MOX2x1' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX2x1.vhd:45' bound to instance 'MX3' of component 'MOX2x1' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX4x1.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'MOX4x1' (11#1) [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX4x1.vhd:12]
+INFO: [Synth 8-3491] module 'MOX4x1' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX4x1.vhd:4' bound to instance 'MX1' of component 'MOX4x1' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temp_Conversion_Project.vhd:81]
+INFO: [Synth 8-3491] module 'MOX4x1' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX4x1.vhd:4' bound to instance 'MX2' of component 'MOX4x1' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temp_Conversion_Project.vhd:82]
+INFO: [Synth 8-3491] module 'MOX4x1' declared at 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/MOX4x1.vhd:4' bound to instance 'MX3' of component 'MOX4x1' [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temp_Conversion_Project.vhd:83]
+INFO: [Synth 8-256] done synthesizing module 'Temp_Conversion_Project' (12#1) [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/sources_1/new/Temp_Conversion_Project.vhd:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 346.145 ; gain = 120.035
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 346.145 ; gain = 120.035
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/constrs_1/new/Ex5.xdc]
+Finished Parsing XDC File [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/constrs_1/new/Ex5.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.srcs/constrs_1/new/Ex5.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Temp_Conversion_Project_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Temp_Conversion_Project_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 647.477 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 647.477 ; gain = 421.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 647.477 ; gain = 421.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 647.477 ; gain = 421.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 647.477 ; gain = 421.367
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module My_flip_flop 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 647.477 ; gain = 421.367
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 647.477 ; gain = 421.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 647.477 ; gain = 421.367
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 647.477 ; gain = 421.367
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 647.477 ; gain = 421.367
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 647.477 ; gain = 421.367
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 647.477 ; gain = 421.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 647.477 ; gain = 421.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 647.477 ; gain = 421.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 647.477 ; gain = 421.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     1|
+|3     |LUT2 |     3|
+|4     |LUT6 |     4|
+|5     |FDCE |     6|
+|6     |IBUF |     8|
+|7     |OBUF |     7|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-----------------+------+
+|      |Instance |Module           |Cells |
++------+---------+-----------------+------+
+|1     |top      |                 |    30|
+|2     |  REG    |Six_Bit_Register |    14|
+|3     |    D1   |My_flip_flop     |     2|
+|4     |    D2   |My_flip_flop_0   |     1|
+|5     |    D3   |My_flip_flop_1   |     3|
+|6     |    D4   |My_flip_flop_2   |     3|
+|7     |    D5   |My_flip_flop_3   |     3|
+|8     |    D6   |My_flip_flop_4   |     2|
++------+---------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 647.477 ; gain = 421.367
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 647.477 ; gain = 120.035
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 647.477 ; gain = 421.367
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+97 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 647.477 ; gain = 425.219
+INFO: [Common 17-1381] The checkpoint 'C:/Users/rhino/Desktop/Vivado Project/Project 1/Project 1.runs/synth_1/Temp_Conversion_Project.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 647.477 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed May 17 13:35:29 2017...

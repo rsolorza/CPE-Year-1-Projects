@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Jun 15 21:08:48 2017
+# Process ID: 1304
+# Current directory: C:/Users/rhino/Desktop/Driverless_train
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13980 C:\Users\rhino\Desktop\Driverless_train\Driverless_train.xpr
+# Log file: C:/Users/rhino/Desktop/Driverless_train/vivado.log
+# Journal file: C:/Users/rhino/Desktop/Driverless_train\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/rhino/Desktop/Driverless_train/Driverless_train.xpr
+update_compile_order -fileset sources_1

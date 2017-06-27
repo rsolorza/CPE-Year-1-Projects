@@ -1,0 +1,77 @@
+Unable to capture context for thread 6940 in process 20476, can not generate back trace
+Unable to capture context for thread 17684 in process 20476, can not generate back trace
+Unable to capture context for thread 8628 in process 20476, can not generate back trace
+Unable to capture context for thread 6792 in process 20476, can not generate back trace
+Unable to capture context for thread 2712 in process 20476, can not generate back trace
+Unable to capture context for thread 18488 in process 20476, can not generate back trace
+Unable to capture context for thread 14592 in process 20476, can not generate back trace
+Unable to capture context for thread 17880 in process 20476, can not generate back trace
+Exception at PC 0x00007FFF5CC69E08
+Exception at PC 0x00007FFF5CC69E08
+Unable to capture context for thread 6556 in process 20476, can not generate back trace
+Unable to capture context for thread 8880 in process 20476, can not generate back trace
+Unable to capture context for thread 19420 in process 20476, can not generate back trace
+Unable to capture context for thread 6556 in process 20476, can not generate back trace
+Unable to capture context for thread 8880 in process 20476, can not generate back trace
+Unable to capture context for thread 19420 in process 20476, can not generate back trace
+Exception at PC 0x00007FFF5CC69E08
+Exception at PC 0x00007FFEEA36BB93
+Printing stacktrace...
+
+Exception at PC 0x00007FFF5CC69E08
+Exception at PC 0x00007FFF5CC69E08
+Exception at PC 0x00007FFF5CC69E08
+Exception at PC 0x00007FFF5CC69E08
+Exception at PC 0x00007FFF5CC69E08
+Exception at PC 0x00007FFF5CC69E08
+Exception at PC 0x00007FFF5CC69E08
+Exception at PC 0x00007FFF5CC69E08
+Exception at PC 0x00007FFF5CC69E08
+Exception at PC 0x00007FFF5CC69E08
+Exception at PC 0x00007FFF5CC69E08
+Exception at PC 0x00007FFF5CC69E08
+Exception at PC 0x00007FFF5CC69E08
+Exception at PC 0x00007FFF5CC69E08
+Exception at PC 0x00007FFF5CC69E08
+[0]  [0x00007FFEEA36BB93]
+[1]  [0x00007FFEEA36BB93]
+[2]  [0x00007FFEEA36B4A1]
+[3]  [0x00007FFEEA36B3EF]
+[4]  [0x00007FFEEA3519FE]
+[5]  [0x00007FFEEA350ED1]
+[6]  [0x00007FFEEA350D76]
+[7]  [0x00007FFEEA2F79F6]
+[8]  [0x00007FFEEA2E7AFB]
+[9]  [0x00007FFEEA40E90A]
+[10]  [0x00007FFEEA429F87]
+[11]  [0x00007FFEEA42A05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FFF5F6D2774]
+[13] (RtlUserThreadStart+0x21) [0x00007FFF600F0D61]
+Done
+Exception at PC 0x00007FFF5CC69E08
+Exception at PC 0x00007FFF5CC69E08
+Exception at PC 0x00007FFEEA071A52
+Attemped to write at address 0x00007FFF28789BA4
+Printing stacktrace...
+
+[0]  [0x00007FFEEA071A52]
+[1]  [0x00007FFEEA071A52]
+[2]  [0x00007FFEEA071AD4]
+[3]  [0x00007FFEEA1B3FF7]
+[4]  [0x00007FFEEA099128]
+[5]  [0x00007FFEEA34DFB9]
+[6]  [0x00007FFEEA51EF23]
+[7]  [0x00007FFEEA42B06B]
+[8]  [0x00007FFEEA4208AF]
+[9]  [0x00007FFEEA420A32]
+[10] (RtlDeactivateActivationContextUnsafeFast+0x1af) [0x00007FFF600A486F]
+[11] (LdrShutdownProcess+0x12c) [0x00007FFF600CD44C]
+[12] (RtlExitUserProcess+0xb4) [0x00007FFF600CD304]
+[13] (FatalExit+0xa) [0x00007FFF5F6DC0DA]
+[14] (exit+0x75) [0x00007FFF5F45A045]
+[15] (initterm_e+0x21d) [0x00007FFF5F45A68D]
+[16]  [0x00000000004014CD]
+[17]  [0x000000000040151B]
+[18] (BaseThreadInitThunk+0x14) [0x00007FFF5F6D2774]
+[19] (RtlUserThreadStart+0x21) [0x00007FFF600F0D61]
+Done
