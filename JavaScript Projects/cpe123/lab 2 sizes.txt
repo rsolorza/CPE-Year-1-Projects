@@ -1,0 +1,53 @@
+*******************************************
+Normal:
+var blueAnimalX = 43;
+var blueAnimalY = 299;
+var blueAnimalScale = 1;
+
+var birdX = 307;
+var birdY = 331;
+var birdScale = 1;
+
+var redAnimalX = 185;
+var redAnimalY = 55;
+var redAnimalScale = 1;
+
+var greenAnimalX = -0;
+var greenAnimalY = 69;
+var greenAnimalScale = 1;
+*******************************************
+BIG:
+
+var blueAnimalX = 3;
+var blueAnimalY = 79;
+var blueAnimalScale = 1.8;
+
+var birdX = 361;
+var birdY = 344;
+var birdScale = .5;
+
+var redAnimalX = 185;
+var redAnimalY = 0;
+var redAnimalScale = 1.5;
+
+var greenAnimalX = -40;
+var greenAnimalY = 40;
+var greenAnimalScale = 1.2;
+*******************************************
+small:
+
+var blueAnimalX = 140;
+var blueAnimalY = 430;
+var blueAnimalScale = .6;
+
+var birdX = 261;
+var birdY = 256;
+var birdScale = 2;
+
+var redAnimalX = 235;
+var redAnimalY = 20;
+var redAnimalScale = .5;
+
+var greenAnimalX = 100;
+var greenAnimalY = 130;
+var greenAnimalScale = .45;
