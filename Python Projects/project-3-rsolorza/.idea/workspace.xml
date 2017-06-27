@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="afbb0fef-3a4c-48e3-8e55-b36c91b32d43" name="Default" comment="I guess it's better...">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/empty_text_file.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/empty_text_file_decoded.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/empty_text_file_encoded.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/empty_text_file_encoded_soln.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/one_character.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/one_character_decoded.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/one_character_encoded.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/one_character_encoded_soln.bin" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huffman.py" afterPath="$PROJECT_DIR$/huffman.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="huffman.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/huffman.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1017">
+              <caret line="443" column="6" lean-forward="false" selection-start-line="443" selection-start-column="6" selection-end-line="443" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#602#1126#0" expanded="false" />
+                <element signature="e#1384#2166#0" expanded="false" />
+                <element signature="e#2314#3120#0" expanded="false" />
+                <element signature="e#3655#4122#0" expanded="false" />
+                <element signature="e#4287#4630#0" expanded="false" />
+                <element signature="e#4929#5088#0" expanded="false" />
+                <element signature="e#5211#5874#0" expanded="false" />
+                <element signature="e#6005#6212#0" expanded="false" />
+                <element signature="e#6373#6994#0" expanded="false" />
+                <element signature="e#7214#8108#0" expanded="false" />
+                <element signature="e#8357#9187#0" expanded="false" />
+                <element signature="e#9508#9941#0" expanded="false" />
+                <marker date="1496419228204" expanded="false" signature="10020:10914" ph="..." />
+                <marker date="1496419228204" expanded="false" signature="10953:11210" ph="..." />
+                <marker date="1496419228204" expanded="false" signature="11244:11741" ph="..." />
+                <marker date="1496419228204" expanded="false" signature="11780:11995" ph="..." />
+                <marker date="1496419228204" expanded="false" signature="12029:12481" ph="..." />
+                <marker date="1496419228204" expanded="false" signature="12513:12686" ph="..." />
+                <marker date="1496419228204" expanded="true" signature="12723:13415" ph="..." />
+                <marker date="1496419228204" expanded="false" signature="13461:13742" ph="..." />
+                <marker date="1496419228204" expanded="false" signature="13782:14213" ph="..." />
+                <marker date="1496419228204" expanded="false" signature="14260:14730" ph="..." />
+                <marker date="1496419228204" expanded="false" signature="14775:15238" ph="..." />
+                <marker date="1496419228204" expanded="false" signature="15278:15656" ph="..." />
+                <marker date="1496419228204" expanded="false" signature="15703:16124" ph="..." />
+                <marker date="1496419228204" expanded="false" signature="16169:16582" ph="..." />
+                <marker date="1496419228204" expanded="false" signature="16623:16715" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>except</find>
+      <find>close</find>
+      <find>print</find>
+      <find>huffman_io</find>
+      <find>comes_before</find>
+      <find>sys.exit()</find>
+      <find>comes</find>
+      <find>build_empty_hash_table</find>
+      <find>blank_hash_table</find>
+    </findStrings>
+    <replaceStrings>
+      <replace># sys.exit()</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Test.txt" />
+        <option value="$PROJECT_DIR$/Test0.txt" />
+        <option value="$PROJECT_DIR$/textfile.txt" />
+        <option value="$PROJECT_DIR$/linked_list_tests.py" />
+        <option value="$PROJECT_DIR$/array_list_tests.py" />
+        <option value="$PROJECT_DIR$/one_character.txt" />
+        <option value="$PROJECT_DIR$/huffman.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-16" />
+    <option name="y" value="-16" />
+    <option name="width" value="3232" />
+    <option name="height" value="1732" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-3-rsolorza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-3-rsolorza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.huffman">
+    <configuration default="false" name="huffman" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project-3-rsolorza" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/huffman.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in linked_list_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project-3-rsolorza" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/linked_list_tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project-3-rsolorza" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project-3-rsolorza" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project-3-rsolorza" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project-3-rsolorza" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.huffman" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in linked_list_tests.py" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.huffman" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in linked_list_tests.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afbb0fef-3a4c-48e3-8e55-b36c91b32d43" name="Default" comment="" />
+      <created>1496029451550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1496029451550</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Files">
+      <created>1496029553662</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1496029553662</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Compression Works! (I think)">
+      <created>1496035183836</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1496035183836</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ummmmmmm maybe">
+      <created>1496112492206</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1496112492206</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Works, but inefficient">
+      <created>1496113008212</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1496113008212</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Works, but inefficient">
+      <created>1496114261945</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1496114261945</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Some test cases">
+      <created>1496186450286</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1496186450286</updated>
+    </task>
+    <task id="LOCAL-00007" summary="I have more stuff to do but that's okay">
+      <created>1496202591411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1496202591411</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Maybe works">
+      <created>1496205783452</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1496205783453</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Maybe works">
+      <created>1496206552423</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1496206552423</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Data defs needed">
+      <created>1496211624125</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1496211624125</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Data Defs given, just gotta see which tests I fail">
+      <created>1496212577806</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1496212577806</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Mehhhhhhhh I wanted to do it my way">
+      <created>1496243761470</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1496243761470</updated>
+    </task>
+    <task id="LOCAL-00013" summary="DONE">
+      <created>1496248994363</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1496248994363</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Now I'm done">
+      <created>1496252096328</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1496252096328</updated>
+    </task>
+    <task id="LOCAL-00015" summary="I guess it's better...">
+      <created>1496260662106</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1496260662106</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_linked_list_tests_py - 2017.05.30 at 21h 51m 46s.xml">
+      <configuration name="Unittests in linked_list_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_linked_list_tests_py - 2017.05.30 at 21h 52m 40s.xml">
+      <configuration name="Unittests in linked_list_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_linked_list_tests_py - 2017.05.30 at 21h 53m 40s.xml">
+      <configuration name="Unittests in linked_list_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_linked_list_tests_py - 2017.05.30 at 21h 54m 31s.xml">
+      <configuration name="Unittests in linked_list_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_linked_list_tests_py - 2017.05.30 at 22h 15m 29s.xml">
+      <configuration name="Unittests in linked_list_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_linked_list_tests_py - 2017.05.30 at 22h 18m 52s.xml">
+      <configuration name="Unittests in linked_list_tests.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22612903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298466" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Files" />
+    <MESSAGE value="Compression Works! (I think)" />
+    <MESSAGE value="Ummmmmmm maybe" />
+    <MESSAGE value="Works, but inefficient" />
+    <MESSAGE value="Some test cases" />
+    <MESSAGE value="I have more stuff to do but that's okay" />
+    <MESSAGE value="Maybe works" />
+    <MESSAGE value="Data defs needed" />
+    <MESSAGE value="Data Defs given, just gotta see which tests I fail" />
+    <MESSAGE value="Mehhhhhhhh I wanted to do it my way" />
+    <MESSAGE value="DONE" />
+    <MESSAGE value="Now I'm done" />
+    <MESSAGE value="I guess it's better..." />
+    <option name="LAST_COMMIT_MESSAGE" value="I guess it's better..." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/huffman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#602#1126#0" expanded="false" />
+            <element signature="e#1384#2166#0" expanded="false" />
+            <element signature="e#2314#3120#0" expanded="false" />
+            <element signature="e#3655#4122#0" expanded="false" />
+            <element signature="e#4287#4630#0" expanded="false" />
+            <element signature="e#4929#5088#0" expanded="false" />
+            <element signature="e#5211#5874#0" expanded="false" />
+            <element signature="e#6005#6212#0" expanded="false" />
+            <element signature="e#6373#6994#0" expanded="false" />
+            <element signature="e#7214#8108#0" expanded="false" />
+            <element signature="e#8357#9187#0" expanded="false" />
+            <element signature="e#9508#9941#0" expanded="false" />
+            <marker date="1496419228204" expanded="false" signature="10020:10914" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="10953:11210" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11244:11741" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11780:11995" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12029:12481" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12513:12686" ph="..." />
+            <marker date="1496419228204" expanded="true" signature="12723:13415" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13461:13742" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13782:14213" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14260:14730" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14775:15238" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15278:15656" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15703:16124" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16169:16582" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16623:16715" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huffman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#602#1126#0" expanded="false" />
+            <element signature="e#1384#2166#0" expanded="false" />
+            <element signature="e#2314#3120#0" expanded="false" />
+            <element signature="e#3655#4122#0" expanded="false" />
+            <element signature="e#4287#4630#0" expanded="false" />
+            <element signature="e#4929#5088#0" expanded="false" />
+            <element signature="e#5211#5874#0" expanded="false" />
+            <element signature="e#6005#6212#0" expanded="false" />
+            <element signature="e#6373#6994#0" expanded="false" />
+            <element signature="e#7214#8108#0" expanded="false" />
+            <element signature="e#8357#9187#0" expanded="false" />
+            <element signature="e#9508#9941#0" expanded="false" />
+            <marker date="1496419228204" expanded="false" signature="10020:10914" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="10953:11210" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11244:11741" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11780:11995" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12029:12481" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12513:12686" ph="..." />
+            <marker date="1496419228204" expanded="true" signature="12723:13415" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13461:13742" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13782:14213" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14260:14730" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14775:15238" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15278:15656" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15703:16124" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16169:16582" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16623:16715" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huffman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#602#1126#0" expanded="false" />
+            <element signature="e#1384#2166#0" expanded="false" />
+            <element signature="e#2314#3120#0" expanded="false" />
+            <element signature="e#3655#4122#0" expanded="false" />
+            <element signature="e#4287#4630#0" expanded="false" />
+            <element signature="e#4929#5088#0" expanded="false" />
+            <element signature="e#5211#5874#0" expanded="false" />
+            <element signature="e#6005#6212#0" expanded="false" />
+            <element signature="e#6373#6994#0" expanded="false" />
+            <element signature="e#7214#8108#0" expanded="false" />
+            <element signature="e#8357#9187#0" expanded="false" />
+            <element signature="e#9508#9941#0" expanded="false" />
+            <marker date="1496419228204" expanded="false" signature="10020:10914" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="10953:11210" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11244:11741" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11780:11995" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12029:12481" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12513:12686" ph="..." />
+            <marker date="1496419228204" expanded="true" signature="12723:13415" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13461:13742" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13782:14213" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14260:14730" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14775:15238" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15278:15656" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15703:16124" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16169:16582" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16623:16715" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huffman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#602#1126#0" expanded="false" />
+            <element signature="e#1384#2166#0" expanded="false" />
+            <element signature="e#2314#3120#0" expanded="false" />
+            <element signature="e#3655#4122#0" expanded="false" />
+            <element signature="e#4287#4630#0" expanded="false" />
+            <element signature="e#4929#5088#0" expanded="false" />
+            <element signature="e#5211#5874#0" expanded="false" />
+            <element signature="e#6005#6212#0" expanded="false" />
+            <element signature="e#6373#6994#0" expanded="false" />
+            <element signature="e#7214#8108#0" expanded="false" />
+            <element signature="e#8357#9187#0" expanded="false" />
+            <element signature="e#9508#9941#0" expanded="false" />
+            <marker date="1496419228204" expanded="false" signature="10020:10914" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="10953:11210" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11244:11741" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11780:11995" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12029:12481" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12513:12686" ph="..." />
+            <marker date="1496419228204" expanded="true" signature="12723:13415" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13461:13742" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13782:14213" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14260:14730" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14775:15238" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15278:15656" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15703:16124" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16169:16582" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16623:16715" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huffman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#602#1126#0" expanded="false" />
+            <element signature="e#1384#2166#0" expanded="false" />
+            <element signature="e#2314#3120#0" expanded="false" />
+            <element signature="e#3655#4122#0" expanded="false" />
+            <element signature="e#4287#4630#0" expanded="false" />
+            <element signature="e#4929#5088#0" expanded="false" />
+            <element signature="e#5211#5874#0" expanded="false" />
+            <element signature="e#6005#6212#0" expanded="false" />
+            <element signature="e#6373#6994#0" expanded="false" />
+            <element signature="e#7214#8108#0" expanded="false" />
+            <element signature="e#8357#9187#0" expanded="false" />
+            <element signature="e#9508#9941#0" expanded="false" />
+            <marker date="1496419228204" expanded="false" signature="10020:10914" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="10953:11210" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11244:11741" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11780:11995" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12029:12481" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12513:12686" ph="..." />
+            <marker date="1496419228204" expanded="true" signature="12723:13415" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13461:13742" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13782:14213" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14260:14730" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14775:15238" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15278:15656" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15703:16124" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16169:16582" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16623:16715" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huffman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#602#1126#0" expanded="false" />
+            <element signature="e#1384#2166#0" expanded="false" />
+            <element signature="e#2314#3120#0" expanded="false" />
+            <element signature="e#3655#4122#0" expanded="false" />
+            <element signature="e#4287#4630#0" expanded="false" />
+            <element signature="e#4929#5088#0" expanded="false" />
+            <element signature="e#5211#5874#0" expanded="false" />
+            <element signature="e#6005#6212#0" expanded="false" />
+            <element signature="e#6373#6994#0" expanded="false" />
+            <element signature="e#7214#8108#0" expanded="false" />
+            <element signature="e#8357#9187#0" expanded="false" />
+            <element signature="e#9508#9941#0" expanded="false" />
+            <marker date="1496419228204" expanded="false" signature="10020:10914" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="10953:11210" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11244:11741" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11780:11995" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12029:12481" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12513:12686" ph="..." />
+            <marker date="1496419228204" expanded="true" signature="12723:13415" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13461:13742" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13782:14213" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14260:14730" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14775:15238" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15278:15656" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15703:16124" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16169:16582" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16623:16715" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huffman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#602#1126#0" expanded="false" />
+            <element signature="e#1384#2166#0" expanded="false" />
+            <element signature="e#2314#3120#0" expanded="false" />
+            <element signature="e#3655#4122#0" expanded="false" />
+            <element signature="e#4287#4630#0" expanded="false" />
+            <element signature="e#4929#5088#0" expanded="false" />
+            <element signature="e#5211#5874#0" expanded="false" />
+            <element signature="e#6005#6212#0" expanded="false" />
+            <element signature="e#6373#6994#0" expanded="false" />
+            <element signature="e#7214#8108#0" expanded="false" />
+            <element signature="e#8357#9187#0" expanded="false" />
+            <element signature="e#9508#9941#0" expanded="false" />
+            <marker date="1496419228204" expanded="false" signature="10020:10914" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="10953:11210" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11244:11741" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11780:11995" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12029:12481" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12513:12686" ph="..." />
+            <marker date="1496419228204" expanded="true" signature="12723:13415" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13461:13742" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13782:14213" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14260:14730" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14775:15238" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15278:15656" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15703:16124" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16169:16582" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16623:16715" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huffman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#602#1126#0" expanded="false" />
+            <element signature="e#1384#2166#0" expanded="false" />
+            <element signature="e#2314#3120#0" expanded="false" />
+            <element signature="e#3655#4122#0" expanded="false" />
+            <element signature="e#4287#4630#0" expanded="false" />
+            <element signature="e#4929#5088#0" expanded="false" />
+            <element signature="e#5211#5874#0" expanded="false" />
+            <element signature="e#6005#6212#0" expanded="false" />
+            <element signature="e#6373#6994#0" expanded="false" />
+            <element signature="e#7214#8108#0" expanded="false" />
+            <element signature="e#8357#9187#0" expanded="false" />
+            <element signature="e#9508#9941#0" expanded="false" />
+            <marker date="1496419228204" expanded="false" signature="10020:10914" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="10953:11210" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11244:11741" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11780:11995" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12029:12481" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12513:12686" ph="..." />
+            <marker date="1496419228204" expanded="true" signature="12723:13415" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13461:13742" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13782:14213" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14260:14730" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14775:15238" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15278:15656" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15703:16124" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16169:16582" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16623:16715" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huffman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#602#1126#0" expanded="false" />
+            <element signature="e#1384#2166#0" expanded="false" />
+            <element signature="e#2314#3120#0" expanded="false" />
+            <element signature="e#3655#4122#0" expanded="false" />
+            <element signature="e#4287#4630#0" expanded="false" />
+            <element signature="e#4929#5088#0" expanded="false" />
+            <element signature="e#5211#5874#0" expanded="false" />
+            <element signature="e#6005#6212#0" expanded="false" />
+            <element signature="e#6373#6994#0" expanded="false" />
+            <element signature="e#7214#8108#0" expanded="false" />
+            <element signature="e#8357#9187#0" expanded="false" />
+            <element signature="e#9508#9941#0" expanded="false" />
+            <marker date="1496419228204" expanded="false" signature="10020:10914" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="10953:11210" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11244:11741" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11780:11995" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12029:12481" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12513:12686" ph="..." />
+            <marker date="1496419228204" expanded="true" signature="12723:13415" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13461:13742" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13782:14213" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14260:14730" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14775:15238" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15278:15656" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15703:16124" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16169:16582" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16623:16715" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huffman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#602#1126#0" expanded="false" />
+            <element signature="e#1384#2166#0" expanded="false" />
+            <element signature="e#2314#3120#0" expanded="false" />
+            <element signature="e#3655#4122#0" expanded="false" />
+            <element signature="e#4287#4630#0" expanded="false" />
+            <element signature="e#4929#5088#0" expanded="false" />
+            <element signature="e#5211#5874#0" expanded="false" />
+            <element signature="e#6005#6212#0" expanded="false" />
+            <element signature="e#6373#6994#0" expanded="false" />
+            <element signature="e#7214#8108#0" expanded="false" />
+            <element signature="e#8357#9187#0" expanded="false" />
+            <element signature="e#9508#9941#0" expanded="false" />
+            <marker date="1496419228204" expanded="false" signature="10020:10914" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="10953:11210" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11244:11741" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11780:11995" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12029:12481" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12513:12686" ph="..." />
+            <marker date="1496419228204" expanded="true" signature="12723:13415" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13461:13742" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13782:14213" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14260:14730" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14775:15238" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15278:15656" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15703:16124" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16169:16582" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16623:16715" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huffman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7040">
+          <caret line="176" column="45" lean-forward="false" selection-start-line="176" selection-start-column="45" selection-end-line="176" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#602#1126#0" expanded="false" />
+            <element signature="e#1384#2166#0" expanded="false" />
+            <element signature="e#2314#3120#0" expanded="false" />
+            <element signature="e#3655#4122#0" expanded="false" />
+            <element signature="e#4287#4630#0" expanded="false" />
+            <element signature="e#4929#5088#0" expanded="false" />
+            <element signature="e#5211#5874#0" expanded="false" />
+            <element signature="e#6005#6212#0" expanded="false" />
+            <element signature="e#6373#6994#0" expanded="false" />
+            <element signature="e#7214#8108#0" expanded="false" />
+            <element signature="e#8357#9187#0" expanded="false" />
+            <element signature="e#9508#9941#0" expanded="false" />
+            <marker date="1496419228204" expanded="false" signature="10020:10914" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="10953:11210" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11244:11741" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11780:11995" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12029:12481" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12513:12686" ph="..." />
+            <marker date="1496419228204" expanded="true" signature="12723:13415" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13461:13742" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13782:14213" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14260:14730" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14775:15238" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15278:15656" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15703:16124" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16169:16582" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16623:16715" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test0.txt" />
+    <entry file="file://$PROJECT_DIR$/Test.txt" />
+    <entry file="file://$PROJECT_DIR$/textfile_decoded.txt" />
+    <entry file="file://$PROJECT_DIR$/huffman_bits_io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1425">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/empt_text_file_decoded.txt" />
+    <entry file="file://$PROJECT_DIR$/array_list_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_list_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="124" column="26" lean-forward="true" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_character.txt" />
+    <entry file="file://$PROJECT_DIR$/textfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/empty_text_file.txt" />
+    <entry file="file://$PROJECT_DIR$/one_character_decoded.txt" />
+    <entry file="file://$PROJECT_DIR$/array_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_WarAndPeace.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8520">
+          <caret line="213" column="7" lean-forward="true" selection-start-line="213" selection-start-column="7" selection-end-line="213" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.txt" />
+    <entry file="file://$PROJECT_DIR$/linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3880">
+          <caret line="97" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huffman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1017">
+          <caret line="443" column="6" lean-forward="false" selection-start-line="443" selection-start-column="6" selection-end-line="443" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#602#1126#0" expanded="false" />
+            <element signature="e#1384#2166#0" expanded="false" />
+            <element signature="e#2314#3120#0" expanded="false" />
+            <element signature="e#3655#4122#0" expanded="false" />
+            <element signature="e#4287#4630#0" expanded="false" />
+            <element signature="e#4929#5088#0" expanded="false" />
+            <element signature="e#5211#5874#0" expanded="false" />
+            <element signature="e#6005#6212#0" expanded="false" />
+            <element signature="e#6373#6994#0" expanded="false" />
+            <element signature="e#7214#8108#0" expanded="false" />
+            <element signature="e#8357#9187#0" expanded="false" />
+            <element signature="e#9508#9941#0" expanded="false" />
+            <marker date="1496419228204" expanded="false" signature="10020:10914" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="10953:11210" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11244:11741" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="11780:11995" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12029:12481" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="12513:12686" ph="..." />
+            <marker date="1496419228204" expanded="true" signature="12723:13415" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13461:13742" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="13782:14213" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14260:14730" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="14775:15238" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15278:15656" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="15703:16124" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16169:16582" ph="..." />
+            <marker date="1496419228204" expanded="false" signature="16623:16715" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
